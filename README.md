@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Screenshot
 
-(./design/web-design.jpg)
+![](./design/web-design.jpg)
 
 ### Built with
 - Semantic HTML5 markup
