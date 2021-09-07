@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-color: #DFE8FF;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: #DFE8FF;
+        background-image: url("/images/pattern-background-mobile.svg");
+    }
+}
+
+.container {
+    background-color: #FFFFFF;
+    height: 600px;
+    width: 400px;
+    margin: 4% auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#human-dance {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title {
+    margin: 20px auto 20px;
+    color: #343E5C;
+}
+
+.subtitle {
+    margin: auto 50px 20px 50px;
+    color: #999CB2;
+}
+
+.info-payment {
+    border-radius: 10px;
+    margin: 2% auto;
+    width: 75%;
+    height: 10%;
+    background-color: #F8F9FE;
+    display: inline-block;
+}
+
+.icon {
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+#icon-music {
+    margin-top: 6px;
+    position: relative;
+}
+
+.bill-info {
+    text-align: justify;
+    width: 50%;
+    float: left;
+    margin: 10px 10px;
+}
+
+.bill-info h5 {
+    color: #343E5C;;
+}
+
+.bill-info p {
+    color: #999CB2;
+}
+
+#link {
+    position: relative;
+    float: right;
+    top: 20px;
+    right: 10px;
+}
+
+#link a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #5C54CD;
+}
+
+.main-button {
+    background-color: #382AE1;
+    border-radius: 10px;
+    width: 60%;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    margin: 30px auto 10px;
+}
+
+.secondary-button {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 30%;
+    color: #787E99;
+    font-weight: bold;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    margin: 5px auto;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
