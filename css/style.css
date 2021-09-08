@@ -73,8 +73,9 @@ body {
     margin: 10px 10px;
 }
 
-.bill-info h5 {
-    color: #343E5C;;
+.bill-info h2 {
+    color: #343E5C;
+    font-size: 14px;
 }
 
 .bill-info p {
