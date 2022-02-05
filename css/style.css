@@ -51,6 +51,7 @@ body {
 .title {
     margin: 30px auto 30px;
     color: var(--dark-blue);
+    font-weight: 900;
 }
 
 .subtitle {
@@ -91,7 +92,7 @@ body {
 .bill-info h2 {
     color: var(--dark-blue);
     font-size: 14px;
-    font-weight: var(--ff-family, 900);
+    font-weight: 900;
 }
 
 .bill-info p {
@@ -109,6 +110,7 @@ a {
     font-weight: bold;
     font-size: 14px;
     color: var(--bright-blue);
+    text-decoration: none;
 }
 
 a:active {
