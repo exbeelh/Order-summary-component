@@ -63,7 +63,7 @@ body {
 .info-payment {
     --vaery-pale-blue: hsl(230, 75%, 98%);
     border-radius: 10px;
-    margin: 5% auto;
+    margin: 3% auto;
     width: 75%;
     height: 10%;
     background-color: var(--very-pale-blue);
