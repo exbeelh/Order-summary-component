@@ -134,12 +134,10 @@ a:active {
     display: block;
     font-size: 14px;
     margin: 30px auto 10px;
+    box-shadow: 0 2px 5px 0 var(--desaturated-blue), 0 3px 8px 0 var(--desaturated-blue);
 }
 
 .secondary-button {
-    background-color: var(--very-pale-blue);
-    border-radius: 10px;
-    width: 30%;
     color: var(--desaturated-blue);
     font-weight: bold;
     padding: 12px 32px;
