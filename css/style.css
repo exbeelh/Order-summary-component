@@ -119,7 +119,7 @@ a:active {
     background-color: var(--bright-blue);
 }
 
-#link a:active {
+.link a:active {
     background-color: var(--very-pale-blue);
 }
 
