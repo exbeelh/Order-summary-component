@@ -38,6 +38,7 @@ body {
     margin: 6% auto;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .human-dance {
@@ -61,7 +62,6 @@ body {
 }
 
 .info-payment {
-    --very-pale-blue: hsl(230, 75%, 98%);
     border-radius: 10px;
     margin: 3% auto;
     padding: 10px;
